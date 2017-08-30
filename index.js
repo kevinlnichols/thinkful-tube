@@ -17,7 +17,8 @@ function renderResult(result) {
   $('.js-results').append(`
   <div class="row">
     <p class="description">${item.snippet.title}</p>
-    <a href="${YOUTUBE_WATCH_URL + item.id.videoId}" target="_blank"><img class="image" src="${item.snippet.thumbnails.default.url}"></a>
+    <a href="${YOUTUBE_WATCH_URL + item.id.videoId}" target="_blank"><img class="image" \n 
+    src="${item.snippet.thumbnails.default.url}" alt="Link to Youtube video titled ${item.snippet.title}"></a>
   </div>`)});
 }
 
