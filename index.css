@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+}
+
+.js-search {
+  text-align: center;
+}
+
+.js-results {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.row {
+  border: 1px solid gainsboro;
+  margin-bottom: 15px;
+  width: 30%;
+  display: inline-block;
+  height: 200px;
+}
+
+.image {
+  margin-bottom: 10px;
+}

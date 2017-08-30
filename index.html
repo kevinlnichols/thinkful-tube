@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Thinkful Tube</title>
+    <link href="index.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <main>
+      <header role="banner">
+        <h1>Thinkful Tube</h1>
+        <p>Enter a search term below to see the top video results on Youtube.</p>
+      </header>
+      
+      <section>
+        <form action="#" class="js-search">
+          <label for="query"></label> <!--What does this do?-->
+          <input placeholder="Search Thinkful Tube" type="text" class="js-query" name="query" required>
+          <button type="submit">Search</button>
+        </form>
+      </section>
+      
+      <section>
+        <h2 class="hidden" id="result">Results</h2>
+        <div class="js-results">
+        </div>
+      </section>
+
+    </main>
+  
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
